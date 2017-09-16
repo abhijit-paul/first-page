@@ -1,0 +1,54 @@
+@font-face {
+  font-family: Ubuntu;
+  src: url("./MankSans-Medium.ttf"); }
+.nutrirx {
+  width: 60%; }
+
+body {
+  font: 20px Ubuntu, Helvetica, sans-serif;
+  color: #333;
+  background-color: #F0E5E5; }
+
+.advertisements {
+  color: #973333; }
+
+.actionText {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 80vw;
+  overflow: hidden; }
+
+span.highlight {
+  cursor: pointer;
+  text-decoration: underline; }
+
+div.functions .card {
+  height: 8vw;
+  text-align: center;
+  padding: 2.5vw;
+  margin: 1vw; }
+
+.user-account > i {
+  font-size: 2em;
+  margin-left: 45%;
+  cursor: pointer; }
+
+.addAction {
+  float: right; }
+  .addAction i {
+    font-size: 2em;
+    cursor: pointer; }
+
+[v-cloak] > * {
+  display: none; }
+
+[v-cloak]::before {
+  content: 'Loading...';
+  font-size: 5em; }
+
+[v-cloak]::after {
+  content: 'autorenew';
+  font-size: 5em;
+  font-family: "Material Icons"; }
+
+/*# sourceMappingURL=firstpage.css.map */

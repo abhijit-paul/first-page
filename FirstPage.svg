@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <path style="fill: rgb(216, 216, 216);" transform="matrix(0.60472, 0, 0, 1.044312, 165.104172, -89.853165)" d="M 423.389 112.034 A 20.518 20.518 0 1 1 462.283 113.012 L 443 106 Z" bx:shape="pie 443 106 0 20.518 252.897 109.983 1@43f629cf"/>
+  <path d="M 496.624 101.351 L 513.203 130.067 L 480.044 130.067 L 496.624 101.351 Z" style="fill: rgb(216, 216, 216);" transform="matrix(-0.499999, -0.866026, 0.866025, -0.5, 576.76979, 522.867303)" bx:shape="triangle 480.044 101.351 33.159 28.716 0.5 0 1@2633929d"/>
+  <rect x="16.892" y="41.91" width="465" height="179.234" style="fill: rgb(216, 216, 216);"/>
+  <text x="197.847" y="62.162" style="white-space: pre; fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 24px;" bx:origin="0.483 0.908">FYAs</text>
+  <text x="25.901" y="82.207" style="white-space: pre; fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 20px;">Look at your transcript</text>
+  <line style="stroke: rgb(0, 0, 0);" x1="137.513" y1="87.468" x2="230.982" y2="87.468"/>
+  <text x="24.153" y="106.982" style="white-space: pre; fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 20px;">Make it to your 9am doctor apointment</text>
+  <line style="stroke: rgb(0, 0, 0);" x1="154.547" y1="112.613" x2="373.282" y2="112.613"/>
+  <text x="24.027" y="130" style="white-space: pre; fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 20px;">Refill your medical supplies</text>
+  <line style="stroke: rgb(0, 0, 0);" x1="97.839" y1="185.812" x2="278.286" y2="185.812"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="116.984" y1="136.261" x2="283.917" y2="136.261"/>
+  <text x="23.027" y="153.018" style="white-space: pre; fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 20px;">Read up the medical journal on weight manage..</text>
+  <line style="stroke: rgb(0, 0, 0);" x1="137.255" y1="158.784" x2="458.467" y2="158.784"/>
+  <text x="22.775" y="177.423" style="white-space: pre; fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 20px;">Choose pediatricians nearby</text>
+  <rect x="94.595" y="2.252" width="314.189" height="23.649" style="fill: rgb(216, 216, 216);"/>
+  <text x="175.676" y="15.766" style="white-space: pre; fill: rgb(151, 51, 51); font-family: sans-serif; font-size: 15px; flood-color: antiquewhite;">Advertisements..</text>
+  <text x="213.324" y="210.072" style="white-space: pre; fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 14px;">More</text>
+  <text x="221.216" y="220.721" style="white-space: pre; fill: rgb(51, 51, 51); font-family: sans-serif; font-weight: bolder; font-style: initial;" transform="matrix(1, 0, 0, 0.612863, 0, 86.761147)"> \/</text>
+  <path d="M 486.712 126.126 H 491.892 V 135.135 H 502.252 V 139.64 H 491.892 V 148.649 H 486.712 V 139.64 H 476.351 V 135.135 H 486.712 Z" style="fill: rgb(255, 216, 216);" transform="matrix(1.000001, 0, 0, 1, -42.793377, -74.324326)" bx:shape="cross 476.351 126.126 25.901 22.523 4.505 5.18 0.5 1@40fb78c0"/>
+  <rect x="16.892" y="242.117" width="465" height="238" style="fill: rgb(216, 216, 216);"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="243.865" y1="242.117" x2="243.865" y2="479.73"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="18.018" y1="356.604" x2="481.982" y2="356.604"/>
+  <rect x="33.784" y="258" width="194" height="80" style="fill: rgb(255, 216, 216);"/>
+  <rect x="265.252" y="258" width="194" height="80" style="fill: rgb(255, 216, 216);"/>
+  <rect x="33.784" y="378" width="194" height="80" style="fill: rgb(255, 216, 216);" transform=""/>
+  <rect x="265.252" y="378" width="194" height="80" style="fill: rgb(255, 216, 216);" transform=""/>
+  <text x="57.432" y="305" style="white-space: pre; fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 24px;">Stay healthier</text>
+  <text x="290" y="305" transform="" style="white-space: pre; fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 24px;">Be peaceful</text>
+  <text x="57.432" y="425" style="white-space: pre; fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 24px;" transform="">See a doctor</text>
+  <text x="290" y="425" style="white-space: pre; fill: rgb(51, 51, 51); font-family: sans-serif; font-size: 24px;" transform="">Book a test</text>
+</svg>

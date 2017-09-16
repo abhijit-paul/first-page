@@ -1,0 +1,93 @@
+<html>
+
+<head>
+    <title>First page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./firstpage.css">
+</head>
+
+<body>
+    <div class="nutrirx container-fluid" v-cloak>
+        <div class="header row">
+            <div class="advertisements col-md-11">
+                <marquee behavior="scroll" direction="">
+                    {{advertisements}}
+                </marquee>
+            </div>
+            <div class="user-account col-md-1 pull-right">
+                <i class="material-icons">account_box</i>
+            </div>
+        </div>
+        <div class="actions">
+            <center>FYAs</center>
+            <div class="addAction">
+                <i class="material-icons">add_circle</i>
+            </div>
+            <div class="actionText" v-for="actionText in actions">
+                <span class="regular">
+                    {{ getRegularText(actionText.text, actionText.highlight) }}
+                </span>
+                <span class="highlight">{{actionText.highlight}}</span>
+            </div>
+
+        </div>
+        <div class="functions">
+            <div class="row">
+                <div class="col-md-6" v-for="appfunc in functions">
+                    <div class="card">
+                        <a v-bind:href="appfunc.link">
+                            {{appfunc.value}}
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://unpkg.com/vue"></script>
+<script>
+    var nutrirx = new Vue({
+        el: '.nutrirx',
+        data: {
+            advertisements: "Newest health tips, Polycarbonate bone transplants, Enhancing newborn child's talents",
+            actions: [
+                {
+                    text: "Look at your transcript",
+                    highlight: 'transcript'
+                },
+                {
+                    text: "Make it to your 9am doctor apointment",
+                    highlight: '9am doctor apointment'
+                },
+                {
+                    text: "Refill your medical supplies",
+                    highlight: 'medical supplies'
+                },
+                {
+                    text: "Read up the medical journal on weight management",
+                    highlight: 'medical journal on weight management'
+                },
+                {
+                    text: "Choose pediatricians nearby",
+                    highlight: 'pediatricians nearby'
+                }
+            ],
+            functions: [
+                { link: '#', value: 'Get healthier' },
+                { link: '#', value: 'Be peaceful' },
+                { link: '#', value: 'See a doctor' },
+                { link: '#', value: 'Book a test' }
+            ]
+        },
+        methods: {
+            getRegularText: function (text, highlight) {
+                return text.replace(highlight, '');
+            }
+        }
+    })
+
+</script>
+
+</html>
